@@ -1,3 +1,5 @@
+package Guia1;
+
 public class Ejercicio4 {
 
   /*
@@ -20,7 +22,9 @@ public class Ejercicio4 {
   }
 
   private boolean palindromeRecursivo(int[] base, int i, int n){
-    
+    if(base[i] != base[base.length - 1 - i]) return false;
+    if(i == n-1) return true;
+    return palindromeRecursivo(base, i+1, n);
   }
 
 

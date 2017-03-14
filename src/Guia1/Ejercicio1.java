@@ -121,6 +121,5 @@ public class Ejercicio1 {
         System.out.println(ej.sumCR(2, 5));
         System.out.println(ej.sumD(3));
         System.out.println(ej.sumDR(4));
-
     }
 }
